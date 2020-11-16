@@ -8,8 +8,9 @@
 }    
 </style>
 <h2>Compound Space</h2>
-<p>A map of 590512 bioactive organic compounds with drug-like properties obtained from <a href="https://www.ebi.ac.uk/chembl/g/#search_results/all">ChEMBL</a>. </p>
-<p> The mapping was done by reducing the dimensionality of the dataset using T-sne, applying k-means clustering, and plotting using Matplotlib.</p>
+<p>A map of 590512 bioactive organic compounds with drug-like properties obtained from <a href="https://www.ebi.ac.uk/chembl/g/#search_results/all">ChEMBL</a> </p>
+<p>The mapping was done using 125 descriptors calculated using <a href="http://mordred-descriptor.github.io/documentation/v0.1.0/introduction.html">mordred</a>, then implementing <a href="https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html">TSNE</a> dimensionality reduction, applying <a href="https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html">K-Means</a> clustering, and plotting using <a href="https://matplotlib.org/">Matplotlib</a>
+    </p>
 <p>Made by: Kareem Abdelmaqsoud</p>
 <p>University Of Rochester</p>
 <div>
