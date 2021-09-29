@@ -4,6 +4,6 @@
 The mapping was done using 125 descriptors calculated using mordred, then implementing TSNE dimensionality reduction, applying K-Means clustering, and plotting using Matplotlib. 
 
 ## Website: 
-https://kareem-abdelmaqsoud.github.io/research_project_1/
+https://kareem-abdelmaqsoud.github.io/Compound_space_visualization/
 
 
